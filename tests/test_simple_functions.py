@@ -15,7 +15,6 @@ class TestSimpleFunctions(object):
         isum = my_sum(iterable)
         assert isum == expected
 
-
     @pytest.mark.parametrize('number, expected', [
         (5, 120),
         (3, 6),
@@ -25,3 +24,4 @@ class TestSimpleFunctions(object):
         '''Test our factorial function'''
         answer = factorial(number)
         assert answer == expected
+        
